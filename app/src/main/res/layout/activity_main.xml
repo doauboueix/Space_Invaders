@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/play"
+            style="@style/button"
+            android:onClick="Play"
+            android:text="PLAY"
+            android:layout_marginTop="50sp"/>
+
+        <Button
+            android:id="@+id/highscores"
+            style="@style/button"
+            android:onClick="Highscores"
+            android:text="HIGHSCORES"
+            android:layout_margin="40sp"/>
+
+        <Button
+            android:id="@+id/options"
+            style="@style/button"
+            android:onClick="Options"
+            android:text="OPTIONS" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
